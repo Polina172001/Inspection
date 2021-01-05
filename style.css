@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-control {
+  background-color: #5a5858;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.main-menu {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+}
+
+.menu-item {
+  list-style: none;
+
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header-item {
+  display: flex;
+}
+
+.name-doctor {
+  margin: auto;
+  padding-right: 30px;
+  color: white;
+}
+
+.header-image {
+  display: flex;
+}
+
+.title-inspection {
+  padding-left: 60px;
+}
+
+.container {
+  width: 90%;
+  outline: 1px red solid;
+  margin: auto;
+}
+
+.header-information,
+.information-content {
+  outline: 1px green solid;
+  padding: 10px;
+}
+
+.information-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.information-column {
+  width: 45%;
+}
+
+.information-label,
+.field-label {
+  margin-bottom: 5px;
+  font-weight: 700;
+  display: block;
+}
+
+.information-field {
+  border: 2px solid #5a5858;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+.button {
+  background-color: #5a5858;
+  border: 2px solid currentColor;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  font-family: inherit;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.content-history {
+  padding: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 200px;
+  max-height: 450px;
+  border: 2px solid #5a5858;
+}

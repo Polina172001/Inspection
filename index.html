@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-control">
+        <nav class="nav">
+          <ul class="main-menu">
+            <li class="menu-item"><a href="#">Домашняя страница</a></li>
+            <li class="menu-item"><a href="#">Мой профиль</a></li>
+            <li class="menu-item"><a href="#">Мои питомцы</a></li>
+            <li class="menu-item"><a href="#">Консультации</a></li>
+          </ul>
+          <!-- <button class="hamb" type="button">open
+            <span class="hamb-line"></span>
+          </button>
+          <button class="close" type="button">close</button> -->
+        </nav>
+        <div class="header-item">
+          <span class="name-doctor">Иванова Анна Сергеевна</span>
+          <div class="header-image">
+            <a href="#"><img src="image/pngtree-vector-bell-icon-png-image_1577303-removebg-preview (1) 1.png" alt="Уведомление"></a>
+            <a href="#"><img src="image/unnamed-removebg-preview (1) 1.png" alt="Профиль"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-inspection">
+    <h1 class="title-inspection">Первичный осмотр</h1>
+    <div class="main-information container">
+      <div class="header-information">
+        <h2>Основная информация</h2>
+      </div>
+      <div class="information-content">
+        <form class="inspection-form">
+        <div class="information-row">
+          <div class="information-column">
+            <label class="information-label" for="animalname">Кличка</label>
+            <input id="animalname" class="information-field information-field-animalname" placeholder="Марли" name="animalname" required>
+          </div>
+          <div class="information-column">
+            <label class="information-label" for="username">ФИО Владельца</label>
+            <input id="username" class="information-field information-field-username" placeholder="Коржунов Владмир Петрович" name="username" required>
+          </div>
+        </div>
+        <div class="information-row">
+          <div class="information-column">
+            <label class="information-label" for="age">Возраст</label>
+            <input id="age" class="information-field information-field-age" placeholder="10 лет" name="age" required>
+          </div>
+          <div class="information-column">
+            <label class="information-label" for="email">E-mail</label>
+            <input id="email" class="information-field information-field-email" placeholder="korch1401@mail.ru" name="email" required>
+          </div>
+        </div>
+        <div class="information-row">
+          <button class=" button information-button"><span class="information-button-label">Изменить</span></button>
+        </div>
+        </form>
+      </div> 
+    </div>
+    <div class="content-history container">
+      <form class="form-control">
+        <div class="form-group">
+          <label class="field-group">
+            <span class="field-label">Анамнез</span>
+            <textarea class="field textarea" placeholder="Информация о жизни питомца" required></textarea>
+          </label>
+        </div>
+        <div class="form-group">
+          <label class="field-group">
+            <span class="field-label">Осмотр</span>
+            <textarea class="field textarea" placeholder="Осмотр питомца" required></textarea>
+          </label>
+          <div class="information-row">
+            <div class="information-column">
+              <label class="information-label" for="animalname">Температура</label>
+              <input id="animalname" class="information-field information-field-animalname" placeholder="36.0" name="animalname" required>
+            </div>
+            <div class="information-column">
+              <label class="information-label" for="username">Вес</label>
+              <input id="username" class="information-field information-field-username" placeholder="20" name="username" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="field-group">
+            <span class="field-label">Назначения</span>
+            <textarea class="field textarea" placeholder="Назначения для питомца" required></textarea>
+          </label>
+        </div>
+        <div class="form-group">
+          <label class="field-group">
+            <span class="field-label">Рекомендации</span>
+            <textarea class="field textarea" placeholder="Рекомендации для питомца" required></textarea>
+          </label>
+        </div>
+      
+        
+        <div class="form-group form-actions">
+          <button class="button button-clear" type="submit">Очистить</button>
+          <button class="button button-submit" type="submit">Сохранить</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+  <!-- <div class="section-home">
+    <div class="widgets">
+      <form class="button-search"> 
+        <label class="field-group">
+          <input class="field" type="search" placeholder="Поле поиска" required>
+        </label>
+        <div class="form-actions">
+          <button class="button" type="submit"> 
+            <span class="visually-hidden">Поиск</span>
+          </button>
+        </div>
+        <!-- <p><input type="search" name="q" placeholder="Поиск по сайту"> 
+        <input type="submit" value="Найти"></p> -->
+      <!-- </form>
+    </div>
+  </div> --> 
+  
+</body>
+</html>
